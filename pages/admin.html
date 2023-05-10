@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/style-admin.css">
+</head>
+
+<body>
+    <section class="section-admin">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-9">
+                    <div class="block-video">
+                        <h2>ВИДЕО</h2>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="block-chat">
+                        <h2>ЧАТ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-1 text-start">
+                   <button class="button-admin">Звук</button>
+               </div>
+               <div class="col-2 text-start">
+                   <button class="button-admin">Демонстрация</button>
+               </div>
+                <div class="col-3 text-center">
+                    <button class="button-admin button-end-conf">Завершить конференцию</button>
+                </div>
+                <div class="col-2 offset-3 text-start">
+                    <button class="button-admin">Участники</button>
+                </div>
+                <div class="col-1 text-end">
+                    <button class="button-admin button-chat">Чат</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>

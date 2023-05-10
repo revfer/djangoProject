@@ -1,0 +1,13 @@
+.button-join-conf:hover, .button-create-conf:hover{
+    transition: 0.2s;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);   
+    color: #2a0d63;
+    
+}
+.button-join-conf:active, .button-create-conf:active{
+    transition: 0.2s;
+    transform: scale(0.99);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); 
+    
+}

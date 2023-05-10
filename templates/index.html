@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Site</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/index-animation.css">
+</head>
+
+<body>
+    <section class="section-enter">
+        <div class="container">
+            <div class="row text-center">
+                <div class="block-buttons-enter">
+                    <div class="col-12">
+
+                        <form action="{% url 'user_verif' %}">
+                            <button class="button-join-conf">Присоединиться к конференции</button>
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <form action="{% url 'admin_verif' %}">
+                            <button class="button-create-conf">Создать конференцию</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
